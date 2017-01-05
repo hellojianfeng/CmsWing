@@ -7,13 +7,15 @@ export default {
   type: 'mysql',
   adapter: {
     mysql: {
-      host: '127.0.0.1',
+      host: 'billyndb.mysql.rds.aliyuncs.com',
       port: '3306',
       database: 'cmswing',
-      user: 'root',
-      password: '',
+      user: 'bdba',
+      password: 'Billyn2017',
       prefix: 'cmswing_',
-      encoding: 'UTF8MB4_GENERAL_CI'
+        encoding: 'UTF8'
+      //encoding: 'UTF8MB4_GENERAL_CI'
+
     },
     mongo: {
 
