@@ -13,7 +13,8 @@ export default {
       user: 'bdba',
       password: 'Billyn2017',
       prefix: 'cmswing_',
-        encoding: 'UTF8'
+        encoding: 'UTF8MB4'
+        //encoding: 'UTF8'
       //encoding: 'UTF8MB4_GENERAL_CI'
 
     },
